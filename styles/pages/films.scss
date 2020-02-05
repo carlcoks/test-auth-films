@@ -1,0 +1,14 @@
+.films {
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  &__item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0px 10px;
+  }
+}

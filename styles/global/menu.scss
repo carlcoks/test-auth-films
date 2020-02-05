@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  align-items: center;
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 0 .15rem;
+    &:hover {
+      & > a {
+        background-color: #232337;
+        color: #fff;
+      }
+    }
+  }
+  &__link {
+    color: $color-grey;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem 1.45rem;
+    transition: all .3s;
+    &.nuxt-link-exact-active {
+      background: #374afb;
+      color: #fff;
+    }
+  }
+}

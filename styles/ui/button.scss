@@ -1,0 +1,52 @@
+.button {
+  display: block;
+  background: none;
+  border: none;
+  padding: .65rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  position: relative;
+  border-radius: .25rem;
+  transition: all .3s;
+  &:disabled {
+    opacity: .65;
+  }
+  &__text {
+    &_hide {
+      opacity: 0;
+    }
+  }
+  &_primary {
+    background: $color-primary;
+    box-shadow: 0 4px 16px 0 rgba(93,120,255,.15);
+    color: #fff;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    &:hover:not(:disabled) {
+      background: #3758ff;
+      box-shadow: 0 9px 16px 0 rgba(93,120,255,.25);
+    }
+  }
+  &_add {
+    background: rgba(93,120,255,.1);
+    color: $color-primary;
+    font-weight: 600;
+    &:hover {
+      background: $color-primary;
+      color: #fff;
+    }
+  }
+  &_more {
+    color: $color-primary;
+    padding: 0;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+    &:hover {
+      text-decoration: underline
+    }
+  }
+}

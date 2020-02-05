@@ -1,0 +1,11 @@
+.add-film {
+  &__form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+  }
+  &__line {
+    margin-bottom: 2rem;
+  }
+}

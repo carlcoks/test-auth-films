@@ -1,0 +1,23 @@
+.login {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__form {
+    width: 430px;
+  }
+  &__title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #595d6e;
+    margin-bottom: 3rem;
+  }
+  &__line {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

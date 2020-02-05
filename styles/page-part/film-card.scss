@@ -1,0 +1,60 @@
+.film-card {
+  box-shadow: 0 0px 12px 0px rgba(82, 63, 105, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  &__head {
+    display: flex;
+    align-items: center;
+  }
+  &__image {
+    max-width: 90px;
+    border-radius: 50%;
+  }
+  &__title {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    line-height: 28px;
+    color: #48465b;
+    font-weight: 500;
+  }
+
+  &__body {
+
+  }
+  &__description {
+    margin: 1rem 0 1.5rem;
+    position: relative;
+    &-text {
+      color: #595d6e;
+      font-weight: 400;
+      height: 50px;
+      overflow: hidden;
+      transition: height .3s;
+    }
+  }
+  &__info {
+    padding: .7rem 0 0;
+    &-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: .5rem;
+    }
+    &-label {
+      color: #48465b;
+      font-weight: 600;
+    }
+    &-data {
+      color: #74788d;
+      font-weight: 400;
+      transition: color .3s;
+      &:hover {
+        color: #5d78ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "Nuxt.js - test app (auth, film&#39;s list)",
+  "author": "Kirill Tsisar",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "normalize-scss": "^7.0.1",
+    "nuxt": "^2.0.0",
+    "set-cookie-parser": "^2.4.3",
+    "vue-axios": "^2.1.5",
+    "vue-cookies": "^1.6.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
+}
